@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{51C54B3F-C598-4639-8983-64C9ACC51843}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp1", "TestApplication\TestApp1.csproj", "{51C54B3F-C598-4639-8983-64C9ACC51843}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebAPI", "TestWebAPI\TestWebAPI.csproj", "{A44FD9B1-28EF-437E-9335-CCB832F3203F}"
 EndProject
