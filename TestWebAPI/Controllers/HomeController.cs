@@ -27,5 +27,10 @@ namespace TestWebAPI.Controllers
         {
             var result = new ProductController().GetProducts();
         }
+
+        public ActionResult TriggerBuild()
+        {
+            return Redirect("http://geethanjhali:9b2d406a6c019fe2a4cdff12da0814b3@your-jenkins.com/job/TestProject1/build?token=TOKEN");
+        }
     }
 }

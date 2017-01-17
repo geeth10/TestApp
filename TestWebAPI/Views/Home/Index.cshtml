@@ -14,7 +14,7 @@
         </p>
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
         <input type="button" id="btnpopup" value="Click  me!!" onclick="ShowModelPopUp();" />
-        <input type="button" id="btnpopup" value="Try me!!" onclick="GetProdList();" />
+        @*<input type="button" id="btnpopup" value="Try me!!" onclick="GetProdList();" />*@
     </div>
     <div class="col-md-4">
         <h2>Get more libraries</h2>
@@ -33,8 +33,11 @@
     ShowModelPopUp = function () {
         window.showModalDialog('/Home/OpenModelPopup', "WindowPopup", 'width=100px,height=100px');
             }
-    GetProdList = function () {
-        window.showModalDialog('/Home/GetProductList', "WindowPopup", 'width=100px,height=100px');
+   // GetProdList = function () {
+   //$.ajax{('/Home/TriggerBuild', "WindowPopup", 'width=100px,height=100px');
+   //     //$.getJSON('/Home/TriggerBuild');
+            
+
        
     }
 </script>
